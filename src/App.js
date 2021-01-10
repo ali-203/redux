@@ -1,11 +1,10 @@
 import React from 'react';
-import Button from  "./Button";
 
 function App() {
   return (
-    <>
-    <Button />
-      </>
+    <div>
+      <h1>I am Ali Raza</h1>
+    </div>
   );
 }
 export default App;
