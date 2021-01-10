@@ -1,4 +1,5 @@
 import React from 'react';
+import {connect} from "react-redux";
 
 function App() {
   return (
@@ -7,5 +8,5 @@ function App() {
     </div>
   );
 }
-export default App;
+export default connect() (App);
 
